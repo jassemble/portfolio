@@ -1,6 +1,6 @@
 export interface CommonHoneycombProps<T = string> {
   size: number
-  items: Array<T>
+  items: Array<number>
   renderItem(item: T, index: number): React.ReactElement
   className?: string
   gap?: number

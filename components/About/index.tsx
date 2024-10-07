@@ -12,14 +12,17 @@ const About = () => {
   const [isScrolling, setIsScrolling] = useState(true)
 
   useEffect(() => {
-    let scrollInterval
+    let scrollInterval: any
 
     const startScrolling = () => {
       scrollInterval = setInterval(() => {
         if (scrollRef.current && isScrolling) {
+          //@ts-ignore
           scrollRef.current.scrollTop += 1 // Adjust scroll speed here
           if (
+            //@ts-ignore
             scrollRef.current.scrollTop + scrollRef.current.clientHeight >=
+            //@ts-ignore
             scrollRef.current.scrollHeight
           ) {
             clearInterval(scrollInterval)

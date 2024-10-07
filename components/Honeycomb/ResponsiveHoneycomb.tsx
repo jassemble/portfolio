@@ -7,6 +7,7 @@ import { getGridColumnsCount, getGridRowsCount } from "./helpers"
 import type { ResponsiveHoneycombProps } from "./types"
 
 const ResponsiveHoneycomb: React.FC<ResponsiveHoneycombProps> = ({
+  //@ts-ignore
   children,
   size,
   defaultWidth,

@@ -17,6 +17,7 @@ const ReactorOne = ({ selectedIndex, setSelectedIndex }: any) => {
   const playSound = () => {
     const audioRef = document.getElementById("hoverSound")
     if (audioRef) {
+      //@ts-ignore
       audioRef.play()
       // .then(() => console.log("then"))
       // .catch(() => {

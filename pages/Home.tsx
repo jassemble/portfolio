@@ -15,7 +15,9 @@ const Home: React.FC = () => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => setVisible(entry.isIntersecting))
     })
+    //@ts-ignore
     observer.observe(domRef.current)
+    //@ts-ignore
     return () => observer.unobserve(domRef.current)
   }, [])
   return (

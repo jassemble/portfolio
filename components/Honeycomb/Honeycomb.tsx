@@ -27,6 +27,7 @@ const Honeycomb = React.forwardRef<HTMLUListElement, StaticHoneycombProps>(
           {items.map((item, index) => {
             const row = 1 + Math.floor(index / columns) * 3
             const column = 1 + (index % columns) * 4
+            //@ts-ignore
             const renderedItem = renderItem(item, index)
 
             return (
