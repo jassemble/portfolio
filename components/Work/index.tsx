@@ -14,6 +14,7 @@ const Work = () => {
       <a
         href="https://www.github.com/geekyants/express-typescript-postgres"
         target="_blank"
+        rel="noreferrer"
         className="flex flex-col items-start text-left justify-center p-2 rounded border-2 border-[#00FFFF] bg-[rgba(0,255,255,0.2)] relative overflow-hidden  cursor-pointer font-bold text-sm transition-transform duration-200 hover:shadow-[0_0_10px_2px_#00FFFF]"
       >
         <img
@@ -35,6 +36,7 @@ const Work = () => {
       <a
         href="https://www.github.com/geekyants/express-typescript-postgres"
         target="_blank"
+        rel="noreferrer"
         className="flex flex-col items-start text-left justify-center p-2 rounded border-2 border-[#00FFFF] bg-[rgba(0,255,255,0.2)] relative overflow-hidden  cursor-pointer font-bold text-sm transition-transform duration-200 hover:shadow-[0_0_10px_2px_#00FFFF]"
       >
         <img

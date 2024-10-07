@@ -44,6 +44,7 @@ const Contact = () => {
       <div className="flex space-x-6 mb-8">
         <a
           href="https://github.com"
+          rel="noreferrer"
           target="_blank"
           className="pulse flex items-center justify-center p-2 rounded border-2 border-[#00FFFF] bg-[rgba(0,255,255,0.2)] relative overflow-hidden  cursor-pointer font-bold text-sm transition-transform duration-200 hover:scale-105 hover:shadow-[0_0_10px_2px_#00FFFF]"
         >
@@ -57,6 +58,7 @@ const Contact = () => {
 
         <a
           href="https://github.com"
+          rel="noreferrer"
           target="_blank"
           className="pulse flex items-center justify-center p-2 rounded border-2 border-[#00FFFF] bg-[rgba(0,255,255,0.2)] relative overflow-hidden  cursor-pointer font-bold text-sm transition-transform duration-200 hover:scale-105 hover:shadow-[0_0_10px_2px_#00FFFF]"
         >
