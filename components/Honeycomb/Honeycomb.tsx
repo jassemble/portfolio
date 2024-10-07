@@ -42,4 +42,5 @@ const Honeycomb = React.forwardRef<HTMLUListElement, StaticHoneycombProps>(
   }
 )
 Honeycomb.displayName = "Honeycomb"
+
 export default Honeycomb
