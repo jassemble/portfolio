@@ -1,0 +1,5 @@
+<svg viewBox="0 0 144 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mt-2 h-6 -translate-y-1 transform transition-transform duration-150 ease-linear lg:mt-0 lg:translate-y-0">
+  <path d="M0 0v12l12 6V6L0 0Z" fill="#30F2A2"></path>
+  <path d="M24 0v12l11.9-6-12-6Z" fill="#30F2A2"></path>
+  <path d="M24 12v12l11.9-6V6l-12 6ZM12 6v12l11.9-6V0l-12 6Z" fill="#14CC80"></path>
+</svg>

@@ -80,7 +80,7 @@ const About = () => {
         <div className="flex flex-wrap">
           <div>
             <p className="mb-2 text-left">
-              Hello! I am a Frontend Developer with over 6 years of experience
+              Hello! I am a FullStack Developer with over 6 years of experience
               in building scalable and efficient web applications. I have a
               strong passion for developing solutions from the ground up and
               take pride in transforming innovative ideas into seamless user

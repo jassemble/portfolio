@@ -43,23 +43,36 @@ const Contact = () => {
       </div>
       <div className="flex space-x-6 mb-8">
         <a
-          href="https://github.com"
+          href="https://github.com/jsingh0026"
           rel="noreferrer"
           target="_blank"
           className="pulse flex items-center justify-center p-2 rounded border-2 border-[#00FFFF] bg-[rgba(0,255,255,0.2)] relative overflow-hidden  cursor-pointer font-bold text-sm transition-transform duration-200 hover:scale-105 hover:shadow-[0_0_10px_2px_#00FFFF]"
         >
           <img
-            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+            src="assets/icons/github.png"
             alt="GitHub"
-            className="github-logo w-4 h-4 mr-2 transition-transform duration-200 ease-in-out"
+            className="github-logo w-6 h-6 mr-2 transition-transform duration-200 ease-in-out"
           />
           <span className="text-[#00FFFF]">GitHub</span>
         </a>
 
         <a
-          href="https://github.com"
+          href="https://www.linkedin.com/in/jaspreets0026/"
           rel="noreferrer"
           target="_blank"
+          className="pulse flex items-center justify-center p-2 rounded border-2 border-[#00FFFF] bg-[rgba(0,255,255,0.2)] relative overflow-hidden  cursor-pointer font-bold text-sm transition-transform duration-200 hover:scale-105 hover:shadow-[0_0_10px_2px_#00FFFF]"
+        >
+          <img
+            src="assets/icons/linkedin.png"
+            alt="GitHub"
+            className="github-logo w-6 h-6 mr-2 transition-transform duration-200 ease-in-out"
+          />
+          <span className="text-[#00FFFF]">LinkedIn</span>
+        </a>
+
+        {/* <a
+          // href="https://github.com"
+          // target="_blank"
           className="pulse flex items-center justify-center p-2 rounded border-2 border-[#00FFFF] bg-[rgba(0,255,255,0.2)] relative overflow-hidden  cursor-pointer font-bold text-sm transition-transform duration-200 hover:scale-105 hover:shadow-[0_0_10px_2px_#00FFFF]"
         >
           <img
@@ -67,21 +80,8 @@ const Contact = () => {
             alt="GitHub"
             className="github-logo w-4 h-4 mr-2 transition-transform duration-200 ease-in-out"
           />
-          <span className="text-[#00FFFF]">LinkedIn</span>
-        </a>
-
-        <a
-          // href="https://github.com"
-          // target="_blank"
-          className="pulse flex items-center justify-center p-2 rounded border-2 border-[#00FFFF] bg-[rgba(0,255,255,0.2)] relative overflow-hidden  cursor-pointer font-bold text-sm transition-transform duration-200 hover:scale-105 hover:shadow-[0_0_10px_2px_#00FFFF]"
-        >
-          {/* <img
-            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-            alt="GitHub"
-            className="github-logo w-4 h-4 mr-2 transition-transform duration-200 ease-in-out"
-          /> */}
           <span className="text-[#00FFFF]">...Coming Soon</span>
-        </a>
+        </a> */}
       </div>
       <div>
         <form

@@ -19,22 +19,53 @@ export const siteConfig = {
 
 export const frontendSkills = [
   {
+    name: "React",
+    url: "https://reactjs.org/",
+
+    imagePath: "https://reactnative.dev/img/header_logo.svg",
+  },
+  {
+    name: "React Native",
+    url: "https://reactnative.dev/",
+
+    imagePath: "https://reactnative.dev/img/header_logo.svg",
+  },
+  {
+    name: "Next.js",
+    url: "https://nextjs.org/",
+    imagePath: "assets/icons/nextjs1.png",
+  },
+  {
+    name: "Angular",
+    url: "https://angular.io/",
+    imagePath: "assets/icons/angular.png",
+  },
+  {
     name: "JavaScript",
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     imagePath:
       "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
   },
   {
-    name: "React",
-    url: "https://reactjs.org",
+    name: "TypeScript",
+    url: "https://www.typescriptlang.org/",
     imagePath:
-      "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/react/react.png",
+      "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/typescript/typescript.png",
   },
   {
-    name: "NextJs",
-    url: "https://nextjs.org",
-    imagePath:
-      "https://raw.githubusercontent.com/vercel/next.js/canary/docs/static/favicon/android-chrome-192x192.png",
+    name: "Cypress",
+    url: "https://www.cypress.io/",
+    imagePath: "assets/icons/cypress.png",
+  },
+  {
+    name: "Appium",
+    url: "https://appium.io/",
+    imagePath: "https://appium.io/docs/en/latest/assets/images/appium-logo.png",
+  },
+  {
+    name: "Atomic Design",
+    url: "https://bradfrost.com/blog/post/atomic-web-design/",
+    imagePath: "assets/icons/atomic-design.png",
   },
   {
     name: "Astro",
@@ -44,13 +75,7 @@ export const frontendSkills = [
   {
     name: "Vue",
     url: "https://vuejs.org",
-    imagePath:
-      "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/vue/vue.png",
-  },
-  {
-    name: "React Native",
-    url: "https://reactnative.dev",
-    imagePath: "https://reactnative.dev/img/header_logo.svg",
+    imagePath: "assets/icons/vuejs.png",
   },
   {
     name: "Electron",
@@ -59,40 +84,19 @@ export const frontendSkills = [
       "https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg",
   },
   {
-    name: "GraphQL",
-    url: "https://graphql.org",
-    imagePath:
-      "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/graphql/graphql.png",
-  },
-  {
-    name: "ThreeJS",
-    url: "https://threejs.org",
-    imagePath:
-      "https://upload.wikimedia.org/wikipedia/commons/3/3f/Three.js_Logo.svg",
-  },
-  {
     name: "Redux",
     url: "https://redux.js.org",
-    imagePath:
-      "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/redux/redux.png",
+    imagePath: "assets/icons/redux.png",
   },
   {
     name: "Tailwind",
     url: "https://tailwindcss.com",
-    imagePath:
-      "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/tailwindcss/tailwindcss.png",
+    imagePath: "assets/icons/tailwind.png",
   },
   {
     name: "Bootstrap",
     url: "https://getbootstrap.com",
-    imagePath:
-      "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/bootstrap/bootstrap.png",
-  },
-  {
-    name: "Ant",
-    url: "https://ant.design",
-    imagePath:
-      "https://camo.githubusercontent.com/5ba8b137124e9375e34505d28a7540736012479ff0d2693af35a49ac10e73a17/68747470733a2f2f6d6973636c2e6d652f706c6174666f726d2f3535366536623265306335393635343039626432343134372e706e67",
+    imagePath: "assets/icons/bootstrap.png",
   },
   {
     name: "MUI",
@@ -107,7 +111,7 @@ export const frontendSkills = [
   {
     name: "SCSS",
     url: "https://sass-lang.com",
-    imagePath: "https://sass-lang.com/assets/img/styleguide/color-1c4aab2b.png",
+    imagePath: "assets/icons/sass.png",
   },
   {
     name: "HTML",
@@ -145,26 +149,22 @@ export const backendSkills = [
   {
     name: "Express.js",
     url: "https://expressjs.com",
-    imagePath:
-      "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+    imagePath: "assets/icons/express.png",
   },
   {
     name: "Gin",
     url: "https://gin-gonic.com",
-    imagePath:
-      "https://github.com/gin-gonic/logo/blob/master/color/gin-horizontal-color.png?raw=true",
+    imagePath: "assets/icons/go.png",
   },
   {
     name: "NestJS",
     url: "https://nestjs.com",
-    imagePath:
-      "https://d33wubrfki0l68.cloudfront.net/f3c698b5dfbd87274ea5b5b1c3d2ec62a329cbd7/61da2/img/logo-small.svg",
+    imagePath: "assets/icons/nestjs.png",
   },
   {
     name: "GraphQL",
     url: "https://graphql.org",
-    imagePath:
-      "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/graphql/graphql.png",
+    imagePath: "assets/icons/graphql.png",
   },
   {
     name: "Ruby",
@@ -175,8 +175,22 @@ export const backendSkills = [
   {
     name: "REST API",
     url: "https://restfulapi.net",
-    imagePath:
-      "https://upload.wikimedia.org/wikipedia/commons/c/cf/Restful_services_logo.svg",
+    imagePath: "assets/icons/rest-api.svg",
+  },
+  {
+    name: "Redis",
+    url: "https://redis.io/",
+    imagePath: "assets/icons/redis.png",
+  },
+  {
+    name: "Memcached",
+    url: "https://memcached.org/",
+    imagePath: "assets/icons/memcached.png",
+  },
+  {
+    name: "Relay",
+    url: "https://relay.dev/",
+    imagePath: "https://relay.dev/img/relay.svg",
   },
 ]
 
@@ -184,8 +198,7 @@ export const otherSkills = [
   {
     name: "MongoDB",
     url: "https://www.mongodb.com",
-    imagePath:
-      "https://upload.wikimedia.org/wikipedia/en/4/45/MongoDB-Logo.svg",
+    imagePath: "assets/icons/mongo.png",
   },
   {
     name: "PostgreSQL",
@@ -203,7 +216,7 @@ export const otherSkills = [
     name: "AWS DynamoDB",
     url: "https://aws.amazon.com/dynamodb/",
     imagePath:
-      "https://d2908q01vomqb2.cloudfront.net/a3dc6bc313f0d6b6146fd26186e0265e066f8d2f/2020/06/30/1-Introduction-to-DynamoDB-1024x606.png",
+      "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
   },
   {
     name: "AWS",
@@ -234,6 +247,32 @@ export const otherSkills = [
     url: "https://www.docker.com",
     imagePath:
       "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+  },
+  {
+    name: "BuildKite",
+    url: "https://buildkite.com/",
+    imagePath: "assets/icons/buildkite.svg",
+  },
+  {
+    name: "DataDog",
+    url: "https://www.datadoghq.com/",
+    imagePath:
+      "https://imgix.datadoghq.com/img/dd_logo_n_70x75.png?ch=Width,DPR&fit=max&auto=format&w=70&h=75&dpr=2",
+  },
+  {
+    name: "SonarQube",
+    url: "https://www.sonarqube.org/",
+    imagePath: "assets/icons/sonarqube.png",
+  },
+  {
+    name: "Snowflake",
+    url: "https://www.snowflake.com/",
+    imagePath: "assets/icons/snowflake.png",
+  },
+  {
+    name: "Microservices",
+    url: "https://microservices.io/",
+    imagePath: "assets/icons/microservices.png",
   },
 ]
 

@@ -60,13 +60,13 @@ const ReactorOne = ({ selectedIndex, setSelectedIndex }: any) => {
   }
   return (
     <div className="fullpage-wrapper flex justify-center items-center">
-      <div className="button-circle">
+      <div className="button-circle1" style={{ opacity: 0 }}>
         <div className="button-coil coil-2">About</div>
         <div className="button-coil coil-4">Work</div>
         <div className="button-coil coil-6">Contact</div>
         <div className="button-coil coil-8">Home</div>
       </div>
-      <div className="button-circle">
+      <ul className="button-circle2">
         {buttons.map((_, index) => (
           <li
             className={selectedIndex === index ? "selected" : ""}
@@ -79,7 +79,7 @@ const ReactorOne = ({ selectedIndex, setSelectedIndex }: any) => {
             }}
           ></li>
         ))}
-      </div>
+      </ul>
       <div className="reactor-container">
         <div className="reactor-container-inner circle abs-center"></div>
         <div className="tunnel circle abs-center"></div>
@@ -132,7 +132,7 @@ const ReactorOne = ({ selectedIndex, setSelectedIndex }: any) => {
             // background-color: #073c4b;
             // box-shadow: 0px 0px 5px #52fefe inset;
           }
-          .button-circle {
+          .button-circle2 {
             width: 400px;
             height: 400px;
             margin: auto;
@@ -148,6 +148,32 @@ const ReactorOne = ({ selectedIndex, setSelectedIndex }: any) => {
             list-style: none;
             overflow: hidden;
             animation: rotate-left 3s forwards;
+          }
+
+          .button-circle1 {
+            width: 400px;
+            height: 400px;
+            margin: auto;
+            // border: 1px dashed #888;
+            background-color: #171b1b;
+            // opacity: 70%;
+            position: absolute;
+            border-radius: 50%;
+            // background-color: #384c50;
+            // border: 1px solid rgb(18, 20, 20);
+            box-shadow: 0px 0px 32px 8px rgb(18, 20, 20),
+              0px 0px 4px 1px rgb(18, 20, 20) inset;
+            list-style: none;
+            overflow: hidden;
+            animation: rotate-left 3s forwards, fadeIn 2s forwards;
+          }
+          @keyframes fadeIn {
+            0% {
+              opacity: 0; /* Start as invisible */
+            }
+            100% {
+              opacity: 1; /* Fully visible */
+            }
           }
           li {
             overflow: hidden;
