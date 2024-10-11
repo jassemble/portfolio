@@ -1,5 +1,6 @@
 import "@/styles/globals.css"
 import { Metadata } from "next"
+import { Analytics } from "@vercel/analytics/react"
 
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               <HoneycombBackground />
               {children}
             </div>
+            <Analytics />
             <TailwindIndicator />
           </ThemeProvider>
           <audio id="hoverSound" src="sounds/button-hover.wav" />
