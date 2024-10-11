@@ -85,7 +85,7 @@ const Contact = () => {
       </div>
       <div>
         <form
-          action="https://formsubmit.co/jass.singh0026@gmail.com"
+          action="https://formsubmit.co/430b47e5b0baa1328b83a4a11e39264b"
           method="POST"
         >
           <div className="grid grid-cols-2 gap-4 mb-4">
